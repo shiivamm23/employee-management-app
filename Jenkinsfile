@@ -1,6 +1,8 @@
 pipeline {
 
-    agent any
+     agent {
+        label 'docker'
+    }
 
     environment {
         FRONTEND_IMAGE = "shivammupadhyayy/frontend:v1"
