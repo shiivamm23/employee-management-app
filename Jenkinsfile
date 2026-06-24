@@ -5,8 +5,8 @@ pipeline {
     }
 
     environment {
-        FRONTEND_IMAGE = "shivammupadhyayy/frontend:v1"
-        BACKEND_IMAGE  = "shivammupadhyayy/backend:v1"
+        FRONTEND_IMAGE = "shivammupadhyayy/employee-management-app-frontend:v1"
+        BACKEND_IMAGE  = "shivammupadhyayy/employee-management-app-backend:v1"
     }
 
     stages {
